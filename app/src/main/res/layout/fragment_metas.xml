@@ -1,0 +1,35 @@
+<!-- fragment_metas.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tus Metas"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/metaAgua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Meta de vasos de agua"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/metaPasos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Meta de pasos diarios"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnGuardarMeta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Meta"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

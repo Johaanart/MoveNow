@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginGoogleActivity">
+
+    <!-- Fondo con imagen -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/fondo3"
+        android:scaleType="centerCrop"
+        android:contentDescription="Fondo de pantalla"
+        android:adjustViewBounds="true" />
+
+    <!-- Contenedor desplazable -->
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="32dp"
+            android:paddingEnd="32dp"
+            android:paddingTop="80dp"
+            android:paddingBottom="80dp"
+            android:gravity="center_horizontal">
+
+            <!-- Nombre de la app -->
+            <TextView
+                android:id="@+id/appNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/nunito"
+                android:shadowColor="#40000000"
+                android:shadowDx="1"
+                android:shadowDy="1"
+                android:shadowRadius="2"
+                android:text="MoveNow"
+                android:textColor="@color/azul_texto"
+                android:textSize="46sp"
+                android:textStyle="bold" />
+
+            <!-- Descripción -->
+            <TextView
+                android:id="@+id/descriptionTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="370dp"
+                android:text="Tu compañero para moverte y sentirte mejor"
+                android:textAlignment="center"
+                android:textColor="@color/azul_texto"
+                android:textSize="16sp" />
+
+            <!-- Botón de registro -->
+            <Button
+                android:id="@+id/startButton"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/button_background"
+                android:elevation="4dp"
+                android:text="Registrarse"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- Botón Google -->
+            <Button
+                android:id="@+id/btn_google_sign_in"
+                android:layout_width="235dp"
+                android:layout_height="43dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/button_google_background"
+                android:drawableLeft="@drawable/ic_google"
+                android:drawablePadding="12dp"
+                android:elevation="4dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="Iniciar sesión con Google"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- NUEVO TEXTO: Iniciar sesión con correo -->
+            <TextView
+                android:id="@+id/txtGoToLoginEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="¿Ya tienes cuenta? Inicia sesión"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

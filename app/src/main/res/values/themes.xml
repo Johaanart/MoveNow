@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- 1. Tema base de la aplicación (hereda de Material 3) -->
+    <style name="Base.Theme.MoveNow" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Personalizaciones base para toda la app -->
+        <!-- Ejemplo: podrías poner aquí el color primario si quieres -->
+        <!-- <item name="colorPrimary">@color/teal_700</item> -->
+    </style>
+
+    <!-- 2. Tema principal de la aplicación (el que se usa en el Manifest) -->
+    <!-- Hereda del tema base para aplicar sus configuraciones -->
+    <style name="Theme.MoveNow" parent="Base.Theme.MoveNow">
+        <!-- ¡Aquí puedes añadir tus personalizaciones! -->
+        <!-- Agregando el color que querías como color primario de la app -->
+        <item name="colorPrimary">@color/teal_200</item>
+    </style>
+
+
+    <!-- 🎨 Estilo para diálogos en modo claro -->
+    <style name="AlertDialogTheme" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="colorPrimary">@color/teal_700</item>
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:background">@drawable/dialog_background</item>
+    </style>
+
+</resources>

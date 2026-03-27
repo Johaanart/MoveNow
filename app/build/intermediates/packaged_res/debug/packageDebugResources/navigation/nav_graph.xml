@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.movenow.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home">
+
+        <!-- Acción a cuestionario (ya estaba) -->
+        <action
+            android:id="@+id/action_homeFragment_to_questionnaireFragment"
+            app:destination="@id/questionnaireFragment" />
+
+        <!-- ✅ NUEVA ACCIÓN NECESARIA -->
+        <action
+            android:id="@+id/action_homeFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+
+    </fragment>
+
+
+    <!-- FRAGMENTO DEL CUESTIONARIO (NUEVO) -->
+    <fragment
+        android:id="@+id/questionnaireFragment"
+        android:name="com.example.movenow.QuestionnaireFragment"
+        android:label="Personaliza tu Rutina"
+        tools:layout="@layout/fragment_questionnaire" >
+        <!-- Acción para ir del cuestionario a la rutina -->
+        <action
+            android:id="@+id/action_questionnaireFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+
+    <!-- FRAGMENTO DE LA RUTINA (MODIFICADO) -->
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.movenow.StartFragment"
+        android:label="Rutina"
+        tools:layout="@layout/fragment_start">
+        <!-- Argumentos que este fragmento espera recibir -->
+        <argument
+            android:name="USER_HAS_EXERCISED"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="USER_HAS_PAIN"
+            app:argType="boolean"
+            android:defaultValue="false" />
+        <argument
+            android:name="USER_INTENSITY"
+            app:argType="string"
+            android:defaultValue="Suave" />
+        <argument
+            android:name="USER_GOAL"
+            app:argType="string"
+            android:defaultValue="Fuerza" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/healthInfoFragment"
+        android:name="com.example.movenow.HealthInfoFragment"
+        android:label="Salud"
+        tools:layout="@layout/fragment_health"/>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.movenow.ProfileFragment"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_profile"/>
+
+    <fragment
+        android:id="@+id/metasFragment"
+        android:name="com.example.movenow.Metas"
+        android:label="Metas"
+        tools:layout="@layout/fragment_metas"/>
+
+    <fragment
+        android:id="@+id/progresoFragment"
+        android:name="com.example.movenow.ProgressFragment"
+        android:label="Progreso"
+        tools:layout="@layout/activity_progress"/>
+
+</navigation>

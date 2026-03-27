@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo6">
+
+    <!-- Scroll principal -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="#CCFFFFFF"
+            android:elevation="4dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- TÍTULO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/nunito"
+                android:text="Bienestar y Salud"
+                android:textColor="@color/azul_texto"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <!-- SUBTÍTULO -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Progreso semanal 🗓️"
+                android:textColor="@color/azul_texto"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp" />
+
+            <!-- GRÁFICO DE BARRAS -->
+            <com.github.mikephil.charting.charts.BarChart
+                android:id="@+id/weeklyChart"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Toggle inferior del consejo -->
+    <LinearLayout
+        android:id="@+id/consejoToggle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true"
+        android:background="#CCFFFFFF">
+
+        <TextView
+            android:id="@+id/consejoTitulo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Consejo del día 🌿"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/azul_texto" />
+
+        <ImageView
+            android:id="@+id/arrowIcon"
+            android:layout_width="24dp"
+            android:layout_height="15dp"
+            android:contentDescription="Mostrar u ocultar consejo"
+            android:src="@drawable/ic_arrow_drop_down" />
+    </LinearLayout>
+
+    <!-- Consejo aleatorio -->
+    <LinearLayout
+        android:id="@+id/consejoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E0F7FA"
+        android:padding="12dp"
+        android:layout_margin="8dp"
+        android:elevation="3dp"
+        android:visibility="gone"
+        android:layout_above="@id/consejoToggle">
+
+        <TextView
+            android:id="@+id/consejoTexto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cargando consejo..."
+            android:textSize="16sp"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+
+</RelativeLayout>

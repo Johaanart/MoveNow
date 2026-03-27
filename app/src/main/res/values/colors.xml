@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 🎨 Colores base -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="gray">#808080</color>
+
+    <!-- 🌊 Tonos azules principales -->
+    <color name="azul_fondo">#E3F2FD</color> <!-- Azul muy claro para fondo -->
+    <color name="azul_texto">#1A237E</color> <!-- Azul oscuro para títulos -->
+    <color name="azul_boton">#2196F3</color> <!-- Azul brillante para botones -->
+    <color name="azul_boton_pressed">#1976D2</color> <!-- Azul más oscuro al presionar -->
+    <color name="azul_boton_disabled">#90CAF9</color> <!-- Azul desactivado -->
+
+    <!-- 🟤 Tonos neutros y cálidos -->
+    <color name="beige_fondo">#F5F5DC</color>
+    <color name="gris_fondo">#E0E0E0</color>
+    <color name="gris_texto">#616161</color>
+    <color name="gris_borde">#BDBDBD</color>
+
+    <!-- 🟢 Tonos teal (complementarios) -->
+    <color name="teal_200">#80CBC4</color>
+    <color name="teal_700">#00796B</color>
+
+    <!-- ✨ Textos -->
+    <color name="primary_text">@color/azul_texto</color>
+    <color name="secondary_text">@color/gris_texto</color>
+    <color name="hint_text">#9E9E9E</color>
+
+    <!-- 💡 Fondos -->
+    <color name="background">@color/azul_fondo</color>
+    <color name="surface">@color/white</color>
+
+    <!-- 🔵 Botones y acentos -->
+    <color name="primary">@color/azul_boton</color>
+    <color name="primary_dark">@color/azul_boton_pressed</color>
+    <color name="accent">@color/teal_200</color>
+    <color name="disabled">@color/azul_boton_disabled</color>
+</resources>

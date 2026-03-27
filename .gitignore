@@ -1,0 +1,17 @@
+# Android / Gradle
+.gradle/
+build/
+**/build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Firebase / secretos
+google-services.json
+.env
+functions/.env
+
+# Mac / basura
+.DS_Store

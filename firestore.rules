@@ -1,0 +1,41 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Aplica las siguientes reglas SÓLO a la colección "users"
+    match /users/{userId} {
+
+      // PERMITE LA CREACIÓN:
+      // Si el usuario que hace la petición está autenticado
+      // Y el ID del documento que intenta crear es su propio ID de usuario.
+      allow create: if request.auth != null && request.auth.uid == userId;
+
+      // PERMITE LEER, ACTUALIZAR, BORRAR:
+      // Si el usuario que hace la petición es el dueño de este documento.
+      allow read, update, delete: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // APLICAMOS LAS SIGUIENTES REGLAS A LA NUEVA COLECCIÓN "userGoals"
+    // {goalId} es un comodín para el ID de cada documento dentro de la colección userGoals.
+    match /userGoals/{goalID} {
+      // PERMITE LA CREACIÓN (CREATE):
+      // Una nueva meta se puede crear si:
+      // 1. El usuario está autenticado (request.auth != null).
+      // 2. El UID del usuario autenticado (request.auth.uid) coincide con
+      //    el valor del campo 'userId' que se intenta escribir en el nuevo documento
+      //    (request.resource.data.userId). Esto asegura que el usuario solo puede crear
+      //    metas que él mismo posee.
+      allow create: if request.auth != null && request.auth.uid == request.resource.data.userId;
+
+      // PERMITE LEER, ACTUALIZAR, BORRAR (READ, UPDATE, DELETE):
+      // Un documento de meta se puede leer, actualizar o borrar si:
+      // 1. El usuario está autenticado (request.auth != null).
+      // 2. El UID del usuario autenticado (request.auth.uid) coincide con
+      //    el valor del campo 'userId' ya existente en el documento
+      //    (resource.data.userId). Esto asegura que solo el propietario
+      //    de la meta puede interactuar con ella después de creada.
+      allow read, update, delete: if request.auth != null && request.auth.uid == resource.data.userId;
+    }
+  }
+}

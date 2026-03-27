@@ -1,0 +1,486 @@
+[
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_water.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\water.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_rounded_button.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\rounded_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_activity_progress.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\activity_progress.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_down.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\down.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_fondo2.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\fondo2.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_browser_menu.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\browser_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_google.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_google.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_scissors.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\scissors.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_button_background.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_calf.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\calf.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_patada.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\patada.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_breath.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\breath.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_mountain.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\mountain.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_kickback.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\kickback.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_fondo3.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\fondo3.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_health.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_health.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_toetouch.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\toetouch.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_eye.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_backgroundcross.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\backgroundcross.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_stretch.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\stretch.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_community.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_community.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_register.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_register.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_activity_verify_email.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\activity_verify_email.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_fragment_questionnaire.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\fragment_questionnaire.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_knees.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\knees.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_legraise.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\legraise.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_notification.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_arrow_drop_down.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_arrow_drop_down.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_button_google_background.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\button_google_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_workoutrafiki.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\workoutrafiki.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_backgroundprofile.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\backgroundprofile.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_fondo4.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\fondo4.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_arrow_back.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_arrow_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_backgroundestretch.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\backgroundestretch.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_chart_placeholder_bg.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\chart_placeholder_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_burpee.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\burpee.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_hip.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\hip.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_plank.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\plank.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_profile.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_bg_input_field.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\bg_input_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_activity_first_time_login.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\activity_first_time_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_legs1.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\legs1.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_stretching.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\stretching.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_backgroundsolid.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\backgroundsolid.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_frontjump.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\frontjump.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_sideplank.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\sideplank.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_sportfamily.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\sportfamily.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_home.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_healthcare.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_healthcare.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_email_sent.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_email_sent.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_armcircle.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\armcircle.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_fondo1.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\fondo1.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_fondo7.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\fondo7.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_hamstring.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\hamstring.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_fragment_profile.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_march.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\march.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_lunge.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\lunge.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_rounded_card_bg.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\rounded_card_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_music.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\music.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_fragment_start.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\fragment_start.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_eye_off.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_eye_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_dialog_background.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\dialog_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\font_nunito.ttf.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\font\\nunito.ttf"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_laters.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\laters.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_stairs.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\stairs.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_input_background.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\input_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_background_login.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\background_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_fragment_health.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\fragment_health.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_squat.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\squat.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_background_edit_profile.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\background_edit_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_shoulder.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\shoulder.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_fondo6.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\fondo6.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_fragment_home.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\fragment_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_training.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\training.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_activity_google_login.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\activity_google_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_walk.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\walk.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_jump.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\jump.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_fondo5.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\fondo5.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_legs.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\legs.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_diamondpush.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\diamondpush.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_kneerun.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\kneerun.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_form_background.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\form_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_dialog_background_dark.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\dialog_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_stretching2.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\stretching2.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_chart_placeholder.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\chart_placeholder.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_pushup.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\pushup.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_quad.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\quad.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_jump_lunge.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\jump_lunge.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_settings.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_settings.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_ic_logout.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\ic_logout.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_butterfly.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\butterfly.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_background_health.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\background_health.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_estretch1.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\estretch1.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_bg_card.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\bg_card.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_side.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\side.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_fragment_metas.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\fragment_metas.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_cross.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\cross.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_dialog_set_goal.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\dialog_set_goal.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\layout_activity_email_login.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\layout\\activity_email_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_background_home.xml.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\background_home.xml"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\drawable_mountainclimber.png.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\drawable\\mountainclimber.png"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-debug-58:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\johan\\.gradle\\daemon\\8.11.1\\com.example.movenow.app-main-60:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.movenow.app-debug-58:/layout_fragment_home.xml.flat",
+        "source": "com.example.movenow.app-main-60:/layout/fragment_home.xml"
+    }
+]

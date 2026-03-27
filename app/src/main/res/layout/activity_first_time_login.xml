@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context=".FirstTimeLoginActivity">
+
+    <!-- ========== INICIO: BOTÓN DE RETROCESO AÑADIDO ========== -->
+    <ImageView
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_arrow_back"
+        android:contentDescription="Volver atrás"
+        android:padding="12dp"
+        app:tint="@color/azul_texto"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:elevation="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- ========== FIN: BOTÓN DE RETROCESO AÑADIDO ========== -->
+
+
+    <!-- ScrollView para pantallas pequeñas -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:id="@+id/formContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:background="@drawable/form_background"
+            android:elevation="6dp"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
+
+            <!-- Título -->
+            <TextView
+                android:id="@+id/txtRegisterTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nunito"
+                android:text="Regístrate"
+                android:textColor="@color/azul_texto"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Campos -->
+            <EditText
+                android:id="@+id/inputName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Nombre completo"
+                android:inputType="textPersonName"
+                android:background="@drawable/input_background"
+                android:padding="12dp"/>
+
+            <EditText
+                android:id="@+id/inputEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="Correo electrónico"
+                android:inputType="textEmailAddress"
+                android:background="@drawable/input_background"
+                android:padding="12dp"/>
+
+            <!-- Contraseña -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <EditText
+                    android:id="@+id/inputPassword"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Contraseña"
+                    android:inputType="textPassword"
+                    android:background="@drawable/input_background"
+                    android:padding="12dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/btnTogglePassword"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/btnTogglePassword"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_eye_off"
+                    android:contentDescription="Mostrar contraseña"
+                    app:tint="@color/azul_texto"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/inputPassword"
+                    app:layout_constraintBottom_toBottomOf="@id/inputPassword"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Confirmar contraseña -->
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp">
+
+                <EditText
+                    android:id="@+id/inputConfirmPassword"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirmar contraseña"
+                    android:inputType="textPassword"
+                    android:background="@drawable/input_background"
+                    android:padding="12dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toStartOf="@id/btnToggleConfirm"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"/>
+
+                <ImageView
+                    android:id="@+id/btnToggleConfirm"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:padding="6dp"
+                    android:src="@drawable/ic_eye_off"
+                    android:contentDescription="Mostrar contraseña"
+                    app:tint="@color/azul_texto"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="@id/inputConfirmPassword"
+                    app:layout_constraintBottom_toBottomOf="@id/inputConfirmPassword"/>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <!-- Botón Registrarse -->
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:backgroundTint="@color/azul_texto"
+                android:text="Registrarse"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:padding="12dp"/>
+
+            <!-- Enlace a login -->
+            <TextView
+                android:id="@+id/txtGoToLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="¿Ya tienes cuenta? Inicia sesión"
+                android:textColor="@color/azul_texto"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- 🔄 Indicador de carga -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@style/Widget.MaterialComponents.CircularProgressIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:elevation="10dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

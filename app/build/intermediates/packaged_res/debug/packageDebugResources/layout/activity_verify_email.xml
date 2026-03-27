@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_login"
+    tools:context=".VerifyEmailActivity">
+
+    <LinearLayout
+        android:id="@+id/formContainer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@drawable/form_background"
+        android:elevation="6dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito"
+            android:gravity="center"
+            android:text="¡Revisa tu correo!"
+            android:textColor="@color/azul_texto"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <!-- Email del usuario -->
+        <TextView
+            android:id="@+id/tvUserEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/nunito"
+            android:textSize="16sp"
+            tools:text="usuario@email.com" />
+
+        <!-- Texto de instrucción -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/nunito"
+            android:gravity="center"
+            android:text="Te enviamos un mensaje para verificar tu cuenta. Una vez confirmes, presiona el botón de abajo para continuar."
+            android:textColor="@color/azul_texto" />
+
+        <!-- Botón de verificación -->
+        <Button
+            android:id="@+id/btnCheckVerification"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:backgroundTint="@color/azul_texto"
+            android:padding="12dp"
+            android:text="Ya verifiqué mi correo"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+
+        <!-- Opción de reenviar correo -->
+        <TextView
+            android:id="@+id/tvResendEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/nunito"
+            android:gravity="center"
+            android:text="Reenviar correo"
+            android:textColor="@color/azul_texto"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

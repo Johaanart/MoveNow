@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoveNow</string>
+    <string-array name="gender_options">
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>No binario</item>
+        <item>Prefiero no decirlo</item>
+    </string-array>
+    <string name="default_web_client_id">1:315404760212:android:18a6aa1acfb93a2e04f081</string>
+</resources>
