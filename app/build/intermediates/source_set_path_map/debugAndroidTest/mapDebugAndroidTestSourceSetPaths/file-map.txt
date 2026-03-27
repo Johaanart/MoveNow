@@ -1,5 +1,0 @@
-com.example.movenow.test.app-core-1.6.1-0 C:\Users\johan\.gradle\caches\8.11.1\transforms\a04f4a8b3d591c5b6f93255518c48dd0\transformed\core-1.6.1\res
-com.example.movenow.test.app-androidTest-1 C:\Users\johan\AndroidStudioProjects\MoveNow\app\build\generated\res\resValues\androidTest\debug
-com.example.movenow.test.app-mergeDebugAndroidTestResources-2 C:\Users\johan\AndroidStudioProjects\MoveNow\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.movenow.test.app-mergeDebugAndroidTestResources-3 C:\Users\johan\AndroidStudioProjects\MoveNow\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.movenow.test.app-debugAndroidTest-4 C:\Users\johan\AndroidStudioProjects\MoveNow\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
