@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
 public class SettingsActivity extends AppCompatActivity {
 
     private Button btnSoporte, btnProgreso, btnComunidad, btnCerrarSesion;
-    private Button btnCambiarCategoria; // ✅ Nuevo botón
+    private Button btnCambiarCategoria; // ✅ Nuevo botón si señor
     private ImageButton btnBack;
     private SwitchCompat switchNotifications;
 
