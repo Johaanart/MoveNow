@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_login"
-    tools:context=".LoginEmailActivity">
+    tools:context="ui.auth.LoginEmailActivity">
 
     <!-- ScrollView para asegurar que el contenido sea visible en pantallas pequeñas -->
     <ScrollView
