@@ -1,4 +1,4 @@
-package com.example.movenow;
+package util.notifications;
 
 import android.content.Context;
 

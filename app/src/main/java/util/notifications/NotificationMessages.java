@@ -1,4 +1,4 @@
-package com.example.movenow;
+package util.notifications;
 
 import java.util.Random;
 
