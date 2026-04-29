@@ -1,4 +1,4 @@
-package com.example.movenow;
+package ui.health;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,6 +14,9 @@ import androidx.fragment.app.Fragment;
 import androidx.navigation.NavController;
 import androidx.navigation.NavOptions;
 import androidx.navigation.Navigation;
+
+import com.example.movenow.FirestoreHelper;
+import com.example.movenow.R;
 
 public class QuestionnaireFragment extends Fragment {
 

@@ -1,4 +1,4 @@
-package com.example.movenow;
+package ui.routine;
 
 public class RoutineActivity {
 

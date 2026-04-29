@@ -1,4 +1,4 @@
-package com.example.movenow;
+package ui.settings;
 
 import android.content.Context;
 import android.content.Intent;
@@ -15,17 +15,21 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 import androidx.work.WorkManager;
 
+import com.example.movenow.R;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.concurrent.TimeUnit;
+
+import ui.auth.LoginGoogleActivity;
+import ui.progress.ProgressFragment;
+import util.notifications.NotificationScheduler;
 
 public class SettingsActivity extends AppCompatActivity {
 
     private Button btnSoporte, btnProgreso, btnComunidad, btnCerrarSesion;
-    private Button btnCambiarCategoria; // ✅ Nuevo botón si señor
+    private Button btnCambiarCategoria; // ✅ Nuevo botón
     private ImageButton btnBack;
     private SwitchCompat switchNotifications;
 
