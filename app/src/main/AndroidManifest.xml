@@ -20,7 +20,7 @@
 
         <!-- Activity inicial -->
         <activity
-            android:name=".LauncherActivity"
+            android:name="ui.auth.LauncherActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,16 +29,18 @@
         </activity>
 
         <!-- Login y pantallas relacionadas -->
-        <activity android:name=".LoginGoogleActivity" android:exported="false"/>
-        <activity android:name=".FirstTimeLoginActivity" android:exported="false"/>
-        <activity android:name=".VerifyEmailActivity" android:exported="false"/>
-        <activity android:name=".LoginEmailActivity" android:exported="false"/>
+        <activity android:name="ui.auth.LoginGoogleActivity" android:exported="false"/>
+        <activity android:name="ui.auth.FirstTimeLoginActivity" android:exported="false"/>
+        <activity android:name="ui.auth.VerifyEmailActivity" android:exported="false"/>
+        <activity android:name="ui.auth.LoginEmailActivity" android:exported="false"/>
+        <activity android:name="ui.routine.RoutineActivity" android:exported="false"/>
+
 
         <!-- Main -->
-        <activity android:name=".MainActivity" android:exported="true"/>
+        <activity android:name="ui.main.MainActivity" android:exported="true"/>
 
         <!-- Configuración -->
-        <activity android:name=".SettingsActivity" android:exported="true"/>
+        <activity android:name="ui.settings.SettingsActivity" android:exported="true"/>
 
         <!-- NO DECLARAR WORKERS AQUÍ -->
         <!-- NO RECEIVERS -->

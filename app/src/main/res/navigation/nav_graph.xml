@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.movenow.HomeFragment"
+        android:name="ui.main.HomeFragment"
         android:label="Inicio"
         tools:layout="@layout/fragment_home">
 
@@ -27,7 +27,7 @@
     <!-- FRAGMENTO DEL CUESTIONARIO (NUEVO) -->
     <fragment
         android:id="@+id/questionnaireFragment"
-        android:name="com.example.movenow.QuestionnaireFragment"
+        android:name="ui.health.QuestionnaireFragment"
         android:label="Personaliza tu Rutina"
         tools:layout="@layout/fragment_questionnaire" >
         <!-- Acción para ir del cuestionario a la rutina -->
@@ -39,7 +39,7 @@
     <!-- FRAGMENTO DE LA RUTINA (MODIFICADO) -->
     <fragment
         android:id="@+id/startFragment"
-        android:name="com.example.movenow.StartFragment"
+        android:name="ui.main.StartFragment"
         android:label="Rutina"
         tools:layout="@layout/fragment_start">
         <!-- Argumentos que este fragmento espera recibir -->
@@ -63,25 +63,25 @@
 
     <fragment
         android:id="@+id/healthInfoFragment"
-        android:name="com.example.movenow.HealthInfoFragment"
+        android:name="ui.health.HealthInfoFragment"
         android:label="Salud"
         tools:layout="@layout/fragment_health"/>
 
     <fragment
         android:id="@+id/profileFragment"
-        android:name="com.example.movenow.ProfileFragment"
+        android:name="ui.main.ProfileFragment"
         android:label="Perfil"
         tools:layout="@layout/fragment_profile"/>
 
     <fragment
         android:id="@+id/metasFragment"
-        android:name="com.example.movenow.Metas"
+        android:name="model.Metas"
         android:label="Metas"
         tools:layout="@layout/fragment_metas"/>
 
     <fragment
         android:id="@+id/progresoFragment"
-        android:name="com.example.movenow.ProgressFragment"
+        android:name="ui.progress.ProgressFragment"
         android:label="Progreso"
         tools:layout="@layout/activity_progress"/>
 

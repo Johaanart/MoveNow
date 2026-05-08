@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estadísticas semanales"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Resumen -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:id="@+id/tvTotalSesiones"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Sesiones: 0"
+                android:textSize="14sp"
+                android:textColor="@color/beige_fondo"/>
+
+            <TextView
+                android:id="@+id/tvRachaDias"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🔥 Racha: 0 días"
+                android:textSize="14sp"
+                android:gravity="end"
+                android:textColor="@color/beige_fondo"/>
+        </LinearLayout>
+
+        <!-- Mensaje motivacional -->
+        <TextView
+            android:id="@+id/tvMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Hoy es un buen día para empezar! 💙"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:textColor="@color/beige_fondo"
+            android:layout_marginBottom="20dp"/>
+
+
+
+        <!-- Lunes -->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <TextView android:id="@+id/tvLun"
+                android:layout_width="40dp" android:layout_height="wrap_content"
+                android:text="Lun\n0%" android:textSize="12sp" android:gravity="center"/>
+            <ProgressBar android:id="@+id/pbLun"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp" android:layout_height="16dp"
+                android:layout_weight="1" android:layout_marginStart="8dp"
+                android:max="100" android:progress="0"/>
+        </LinearLayout>
+
+        <!-- Martes -->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <TextView android:id="@+id/tvMar"
+                android:layout_width="40dp" android:layout_height="wrap_content"
+                android:text="Mar\n0%" android:textSize="12sp" android:gravity="center"/>
+            <ProgressBar android:id="@+id/pbMar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp" android:layout_height="16dp"
+                android:layout_weight="1" android:layout_marginStart="8dp"
+                android:max="100" android:progress="0"/>
+        </LinearLayout>
+
+        <!-- Miércoles -->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <TextView android:id="@+id/tvMie"
+                android:layout_width="40dp" android:layout_height="wrap_content"
+                android:text="Mié\n0%" android:textSize="12sp" android:gravity="center"/>
+            <ProgressBar android:id="@+id/pbMie"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp" android:layout_height="16dp"
+                android:layout_weight="1" android:layout_marginStart="8dp"
+                android:max="100" android:progress="0"/>
+        </LinearLayout>
+
+        <!-- Jueves -->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <TextView android:id="@+id/tvJue"
+                android:layout_width="40dp" android:layout_height="wrap_content"
+                android:text="Jue\n0%" android:textSize="12sp" android:gravity="center"/>
+            <ProgressBar android:id="@+id/pbJue"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp" android:layout_height="16dp"
+                android:layout_weight="1" android:layout_marginStart="8dp"
+                android:max="100" android:progress="0"/>
+        </LinearLayout>
+
+        <!-- Viernes -->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <TextView android:id="@+id/tvVie"
+                android:layout_width="40dp" android:layout_height="wrap_content"
+                android:text="Vie\n0%" android:textSize="12sp" android:gravity="center"/>
+            <ProgressBar android:id="@+id/pbVie"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp" android:layout_height="16dp"
+                android:layout_weight="1" android:layout_marginStart="8dp"
+                android:max="100" android:progress="0"/>
+        </LinearLayout>
+
+        <!-- Sábado -->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <TextView android:id="@+id/tvSab"
+                android:layout_width="40dp" android:layout_height="wrap_content"
+                android:text="Sáb\n0%" android:textSize="12sp" android:gravity="center"/>
+            <ProgressBar android:id="@+id/pbSab"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp" android:layout_height="16dp"
+                android:layout_weight="1" android:layout_marginStart="8dp"
+                android:max="100" android:progress="0"/>
+        </LinearLayout>
+
+        <!-- Domingo -->
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="10dp">
+            <TextView android:id="@+id/tvDom"
+                android:layout_width="40dp" android:layout_height="wrap_content"
+                android:text="Dom\n0%" android:textSize="12sp" android:gravity="center"/>
+            <ProgressBar android:id="@+id/pbDom"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp" android:layout_height="16dp"
+                android:layout_weight="1" android:layout_marginStart="8dp"
+                android:max="100" android:progress="0"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

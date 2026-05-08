@@ -1,4 +1,4 @@
-package com.example.movenow;
+package ui.auth;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,10 +6,10 @@ import android.util.Log;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import ui.main.MainActivity;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.UserInfo;
-import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 
 public class LauncherActivity extends AppCompatActivity {

@@ -1,4 +1,4 @@
-package com.example.movenow;
+package ui.main;
 
 import android.Manifest;
 import android.content.Context;
@@ -13,7 +13,10 @@ import androidx.navigation.NavController;
 import androidx.navigation.fragment.NavHostFragment;
 import androidx.navigation.ui.NavigationUI;
 
+import com.example.movenow.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+
+import util.notifications.NotificationScheduler;
 
 public class MainActivity extends AppCompatActivity {
 

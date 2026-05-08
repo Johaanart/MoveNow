@@ -304,7 +304,7 @@ public class RoutineManager {
                     R.drawable.breath, RoutineCategory.FLEXIBILIDAD)
 
 
-            ));
+    ));
 
     // Devuelve una rutina aleatoria (Este método puede ser menos útil ahora)
     public static Routine getRandomRoutine() {
@@ -316,6 +316,7 @@ public class RoutineManager {
     public static List<Routine> getAllRoutines() {
         return new ArrayList<>(routines);
     }
+
     public static List<Routine> getByCategory(RoutineCategory category) {
         return routines.stream()
                 .filter(r -> r.category == category)
